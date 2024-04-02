@@ -1,0 +1,89 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<div class="flex justify-center space-x-4">
+    <button class="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600">
+        Primary
+    </button>
+    <button class="px-4 py-2 bg-green-500 text-white rounded-md hover:bg-green-600 focus:outline-none focus:bg-green-600">
+        Success
+    </button>
+    <button class="px-4 py-2 bg-yellow-500 text-white rounded-md hover:bg-yellow-600 focus:outline-none focus:bg-yellow-600">
+        Warning
+    </button>
+    <button class="px-4 py-2 bg-red-500 text-white rounded-md hover:bg-red-600 focus:outline-none focus:bg-red-600">
+        Danger
+    </button>
+</div>
+
+<!-- Botón -->
+<button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+  Botón
+</button>
+
+<!-- Tarjeta -->
+<div class="max-w-sm rounded overflow-hidden shadow-lg">
+  <img class="w-full" src="img/Gazorpazorp_Tyron_an_iris_turing_into_a_desert_landscape_horizo_ffd64e5a-2d49-47be-ba5f-1422203eac74.png" alt="Imagen de la tarjeta">
+  <div class="px-6 py-4">
+    <div class="font-bold text-xl mb-2">Título de la tarjeta</div>
+    <p class="text-gray-700 text-base">
+      Contenido de la tarjeta.
+    </p>
+  </div>
+</div>
+
+<!-- Lista de elementos -->
+<ul class="list-disc">
+  <li>Elemento 1</li>
+  <li>Elemento 2</li>
+  <li>Elemento 3</li>
+</ul>
+
+<!-- Alerta -->
+<div class="bg-yellow-100 border-l-4 border-yellow-500 text-yellow-700 p-4" role="alert">
+  <p class="font-bold">¡Advertencia!</p>
+  <p>Esto es una alerta de advertencia.</p>
+</div>
+
+<!-- Formulario -->
+<form class="w-full max-w-sm">
+  <div class="flex items-center border-b border-b-2 border-teal-500 py-2">
+    <input class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="Nombre">
+    <button class="flex-shrink-0 bg-teal-500 hover:bg-teal-700 border-teal-500 hover:border-teal-700 text-sm border-4 text-white py-1 px-2 rounded" type="button">
+      Enviar
+    </button>
+  </div>
+</form>
+
+<!-- Tabla -->
+<table class="table-auto">
+  <thead>
+    <tr>
+      <th class="px-4 py-2">Encabezado 1</th>
+      <th class="px-4 py-2">Encabezado 2</th>
+      <th class="px-4 py-2">Encabezado 3</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="border px-4 py-2">Celda 1</td>
+      <td class="border px-4 py-2">Celda 2</td>
+      <td class="border px-4 py-2">Celda 3</td>
+    </tr>
+    <tr>
+      <td class="border px-4 py-2">Celda 4</td>
+      <td class="border px-4 py-2">Celda 5</td>
+      <td class="border px-4 py-2">Celda 6</td>
+    </tr>
+  </tbody>
+</table>
+
+
